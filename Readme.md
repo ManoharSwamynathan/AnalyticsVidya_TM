@@ -1,5 +1,7 @@
 ### Problem Statement
 
+Competition Source URL(Analytics Vidya): https://datahack.analyticsvidhya.com/contest/mlware-1/
+
 Brevity is the soul of wit - William Shakespeare, Hamlet
 
 Shakespeare probably saw a world expressing itself on Twitter before any one did! And he would have known if any one made a sarcastic tweet or not. But for our machines and bots, they need help from data scientists to help them decipher sarcasm.
@@ -23,4 +25,5 @@ test.csv - This file has two columns containing the ID and tweets. The predictio
 The metric used for evaluating the predictions for this problem is simply the F1-score.
 Public : Private leaderboard split on test data is 25:75 
 
-
+#### Results
+RNN model using passage package scored 0.752787 on the private leaderboard

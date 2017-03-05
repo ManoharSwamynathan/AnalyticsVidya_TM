@@ -18,6 +18,9 @@ training.csv - This file contains three columns -
 
 test.csv - This file has two columns containing the ID and tweets. The predictions on this set would be judged
 
+#### Evaluation:
 
+The metric used for evaluating the predictions for this problem is simply the F1-score.
+Public : Private leaderboard split on test data is 25:75 
 
 
